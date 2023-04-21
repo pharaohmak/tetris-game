@@ -2,6 +2,8 @@
 
 This repository contains the source code for a classic Tetris game built using JavaScript. The game features the iconic gameplay of Tetris, where players manipulate falling tetrominoes to create complete lines and clear them from the screen.
 
+[Live Preview](https://pharaohmak.github.io/tetris-game/)
+
 ## Features
 
 - Tetrominoes: The game includes various tetromino shapes, such as L-shape, T-shape, and square shape, that fall from the top of the screen. Players can rotate and move these tetrominoes horizontally to fit them into the existing blocks on the screen.
