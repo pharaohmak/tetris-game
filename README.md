@@ -1,55 +1,97 @@
-# Classic Tetris Game
+# JavaScript Tetris Game
 
-This repository contains the source code for a classic Tetris game built using JavaScript. The game features the iconic gameplay of Tetris, where players manipulate falling tetrominoes to create complete lines and clear them from the screen.
+![Gameplay Screenshot](gameplay_screenshot.png)
 
-[Live Preview](https://pharaohmak.github.io/tetris-game/)
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Controls](#controls)
+- [Gameplay](#gameplay)
+- [Development](#development)
+- [Future Improvements](#future-improvements)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+The JavaScript Tetris Game is a classic implementation of the popular puzzle game built entirely in JavaScript using the HTML5 Canvas element. Players manipulate falling Tetromino shapes, rotating them to create complete horizontal lines which then disappear, earning points.
 
 ## Features
 
-- Tetrominoes: The game includes various tetromino shapes, such as L-shape, T-shape, and square shape, that fall from the top of the screen. Players can rotate and move these tetrominoes horizontally to fit them into the existing blocks on the screen.
-- Complete lines: When players fill an entire row with blocks, that line is cleared, and the player earns points. The game keeps track of the player's score, which increases with each line cleared.
-- Speed and difficulty levels: The game starts with a slow falling speed of tetrominoes, but as the game progresses, the falling speed increases, making the game more challenging.
-- Game over and restart: The game ends when the blocks stack up to the top of the screen, and the player loses. The game provides an option to restart and play again.
-- Keyboard controls: The game allows players to control the tetrominoes using keyboard inputs, such as moving left, right, down, and rotating them.
+- **Dynamic Gameplay:** Control Tetromino shapes using keyboard inputs to move left, right, rotate, and drop faster.
+- **Scoring System:** Earn points by completing rows. Each completed row increases the score.
+- **Level Up:** Progress through levels as the game speeds up with each level increase.
+- **Game Over:** The game ends when Tetrominoes stack up to the top of the screen, displaying a "Game Over" message.
 
 ## Technologies Used
 
-- JavaScript: The game is built using JavaScript, a popular programming language for web development.
-- HTML/CSS: The game uses HTML and CSS for rendering the game screen and styling.
-- DOM manipulation: The game utilizes the Document Object Model (DOM) to manipulate the HTML elements on the web page for updating the game state and rendering the game screen.
-- Event handling: The game includes event listeners to handle keyboard inputs and update the game state accordingly.
-- Game loop: The game implements a game loop, which is a continuous loop that handles game updates, rendering, and input processing.
+- **JavaScript:** Core programming language for game logic and user interactions.
+- **HTML5 Canvas:** Used for rendering graphics and creating the game board.
+- **Git:** Version control system for tracking changes and collaborating on code.
+- **GitHub:** Hosting platform for repository management and project documentation.
 
-## Setup
+## Setup Instructions
 
-To set up the game locally, follow these steps:
+To run the JavaScript Tetris Game locally on your machine, follow these steps:
 
-1. Clone the repository to your local machine using the following command:
-```
-git clone https://github.com/pharaohmak/tetris-game.git
-```
-2. Navigate to the project directory:
-```
-cd tetris-game
-```
-3. Open the `index.html` file in a web browser to start the game.
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/tetris-game.git
+    ```
+
+2. **Navigate to the Project Directory:**
+
+    ```bash
+    Open index.html using your preferred web browser.
+    ```
+
+## Controls
+
+- **Left Arrow (←):** Move Tetromino left.
+- **Right Arrow (→):** Move Tetromino right.
+- **Down Arrow (↓):** Speed up Tetromino descent.
+- **Up Arrow (↑):** Rotate Tetromino clockwise.
+
+## Gameplay
+
+1. **Objective:**
+- Arrange falling Tetrominoes to complete horizontal lines without gaps.
+
+2. **Scoring:**
+- **Single Line Clear:** 100 points.
+- **Double Line Clear:** 300 points.
+- **Triple Line Clear:** 500 points.
+- **Tetris (Four Line Clear):** 800 points.
+
+3. **Level Up:**
+- The game speeds up with each level increase.
+
+## Development
+
+The game is developed using object-oriented principles in JavaScript. It utilizes arrays and matrices to manage game state and logic. Collision detection ensures Tetrominoes stack correctly, while rotation mechanics simulate Tetromino rotation within the game board boundaries.
+
+## Future Improvements
+
+Future updates and enhancements planned for the JavaScript Tetris Game include:
+
+- **Sound Effects:** Add sound effects for Tetromino movements and line completions.
+- **Responsive Design:** Optimize the game for various screen sizes and orientations.
+- **Touch Controls:** Implement touch-based controls for mobile devices.
 
 ## Contributing
 
-If you would like to contribute to the project, please follow these steps:
+Contributions to the JavaScript Tetris Game project are welcome! To contribute, follow these steps:
 
-1. Fork the repository to your own GitHub account.
-2. Create a new branch from the `main` branch with a descriptive name for your changes.
-3. Make your changes to the code and test them thoroughly.
-4. Submit a pull request to the `main` branch of the original repository.
-5. Provide a clear description of the changes made and any relevant information for review.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/your-feature`).
+6. Create a new Pull Request.
 
 ## License
 
-This Tetris game is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-For any inquiries or questions, please contact the project owner at [alchemist@sleepingpharaoh.com](mailto:alchemist@sleepingpharaoh.com).
-
-Thank you for your interest in the Classic Tetris Game!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
