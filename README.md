@@ -1,7 +1,5 @@
 # JavaScript Tetris Game
 
-![Gameplay Screenshot](gameplay_screenshot.png)
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
