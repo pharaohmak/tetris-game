@@ -2,12 +2,22 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">       
-        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>JavaScript Tetris</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="TetrisBasic.js"></script>
+        <script src="TetrisBasic.js" defer></script>
     </head>
     <body>
-        <canvas id='my-canvas'></canvas>
+        <header>
+            <h1>JavaScript Tetris</h1>
+            <p>Welcome to the classic Tetris game built with JavaScript. Press the start button to begin playing!</p>
+        </header>
+        <main>
+            <button id="start-button">Start</button>
+            <canvas id="my-canvas" title="Tetris Game Canvas"></canvas>
+        </main>
+        <noscript>
+            <p>JavaScript is required to play this game. Please enable JavaScript in your browser settings.</p>
+        </noscript>
     </body>
 </html>

@@ -37,7 +37,7 @@ To run the JavaScript Tetris Game locally on your machine, follow these steps:
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/tetris-game.git
+    git clone https://github.com/pharaohmak/tetris-game.git
     ```
 
 2. **Navigate to the Project Directory:**
